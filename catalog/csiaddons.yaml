@@ -1,6 +1,6 @@
 ---
-image: quay.io/csiaddons/k8s-bundle:v0.9.1
-name: csi-addons.v0.9.1
+image: quay.io/csiaddons/k8s-bundle:v0.10.0
+name: csi-addons.v0.10.0
 package: csi-addons
 properties:
 - type: olm.gvk
@@ -110,8 +110,8 @@ properties:
 relatedImages:
 - image: quay.io/brancz/kube-rbac-proxy:v0.18.0
   name: ""
-- image: quay.io/csiaddons/k8s-bundle:v0.9.1
+- image: quay.io/csiaddons/k8s-bundle:v0.10.0
   name: ""
-- image: quay.io/csiaddons/k8s-controller:v0.9.1
+- image: quay.io/csiaddons/k8s-controller:v0.10.0
   name: ""
 schema: olm.bundle
